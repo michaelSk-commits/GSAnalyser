@@ -1,0 +1,12 @@
+# GSAnalyser2+: Library Dependencies Matrix
+# Install via terminal: pip install -r requirements.txt
+
+numpy>=1.22.0
+pandas>=1.4.0
+scipy>=1.8.0
+scikit-learn>=1.0.0
+PyQt6>=6.4.0
+pyqtgraph>=0.13.0
+flowkit>=0.9.0
+matplotlib>=3.5.0
+openpyxl>=3.0.0
