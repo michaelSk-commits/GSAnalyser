@@ -1,6 +1,6 @@
 # GSAnalyser: An Open-Source Tool for Objective DNA Content Estimation and Quality Control in Plant Flow Cytometry
 
-**Version**: 1.1.0 (Beta)  
+**Version**: 1.1.0  
 **License**: MIT  
 **Python**: 3.13.9 (or 3.8+)
 
