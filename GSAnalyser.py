@@ -1124,7 +1124,7 @@ class GSAnalyserCore(QMainWindow):
 
     def save_report_to_files(self):
         if not self.report_raw_text: return
-        base = os.path.splitext(self.current_file_path)
+        base = os.path.splitext(self.current_file_path)[0]
         try:
             with open(base + "_report.txt", "w", encoding="utf-8") as f: f.write(self.report_raw_text)
             exp = pg.exporters.ImageExporter(self.plot_widget.plotItem); exp.parameters()['width'] = 1200; exp.export(base + "_histogram.png")
